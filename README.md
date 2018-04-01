@@ -1,9 +1,6 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
+This is a sample app for the [ruby on rails]("https://github.com/tingluhk/h-app06/") by [Thomas]("https://github.com/tingluhk/")
 
 * Ruby version
 
