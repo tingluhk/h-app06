@@ -10,4 +10,17 @@ module ApplicationHelper
     end
 
   end
+
+
+
+
+  def displayTitle(txt='')
+    if txt.empty?
+      ''
+    else
+      'Page'
+    end
+  end
+
+
 end
