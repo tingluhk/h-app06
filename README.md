@@ -37,7 +37,8 @@ This is a sample app for the [ruby on rails]("https://github.com/tingluhk/h-app0
 
 
 * code playground
-        xx + s
+
+        >> xx + s
         => "foo barsomething"
         >> xx + " " + s
         => "foo bar something"
@@ -199,6 +200,7 @@ This is a sample app for the [ruby on rails]("https://github.com/tingluhk/h-app0
 
 
 * Hash
+
         >> user = {}
         => {}
         >> user["fname"] = "michael"
@@ -279,6 +281,7 @@ This is a sample app for the [ruby on rails]("https://github.com/tingluhk/h-app0
 
 
 * Object Class
+
         >> s = "something"
         => "something"
         >> s.class.superclass.superclass
@@ -317,6 +320,7 @@ This is a sample app for the [ruby on rails]("https://github.com/tingluhk/h-app0
 
 
 * Class
+
         >> class Word
         >>   def palindrome?(string)
         >>     string == string.reverse
@@ -334,6 +338,7 @@ This is a sample app for the [ruby on rails]("https://github.com/tingluhk/h-app0
 
 
 * Class Controller
+
         >> class Something < String
         >>   # Returns true if the string is its own reverse.
         ?>   def palindrome?
@@ -361,7 +366,6 @@ This is a sample app for the [ruby on rails]("https://github.com/tingluhk/h-app0
 
 
         >> controller = StaticPagesController.new
-
         => #<StaticPagesController:0x0000558419496b80 @action_has_layout=true, @routes=nil, @request=nil, @response=nil>
         >> controller.class
         => StaticPagesController
@@ -382,7 +386,6 @@ This is a sample app for the [ruby on rails]("https://github.com/tingluhk/h-app0
         >>
 
 * Custom Class User (example_user.rb)
-
 
         >> example = User.new
         => #<User:0x0000558419f340b0 @name=nil, @email=nil>
