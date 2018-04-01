@@ -1,6 +1,6 @@
 # README
 
-This is a sample app for the [ruby on rails] by [Thomas]
+This is a sample app for the [ruby on rails]("https://github.com/tingluhk/h-app06/") by [Thomas]("https://github.com/tingluhk/")
 
 * Ruby version
 
