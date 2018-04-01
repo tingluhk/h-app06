@@ -50,8 +50,14 @@ group :development do
   gem 'spring-watcher-listen', '~> 2.0.0'
 end
 
+group :test do
+  gem 'minitest-reporters', '1.2.0'
+  gem 'mini_backtrace'
+  gem 'guard-minitest'
+end
+
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
-gem 'minitest-reporters'
+
 
 ruby "2.4.4"
