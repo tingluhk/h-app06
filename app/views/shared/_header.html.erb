@@ -4,12 +4,13 @@
       <%= link_to("sample app", '#', id: 'logo') %>
       <nav>
         <ul class="nav navbar-nav navbar-right">
-        <li><%= link_to "root",'/'  %></li>
-        <li><%= link_to "users",'/users'  %></li>
-        <li><%= link_to "microposts",'/microposts'  %></li>
-        <li><%= link_to "home",'/static_pages/home'  %></li>
-        <li><%= link_to "help",'/static_pages/help'  %></li>
-        <li><%= link_to "about",'/static_pages/about'  %></li>
+        <li><%= link_to "root", root_path %></li>
+        <li><%= link_to "users", users_path %></li>
+        <li><%= link_to "microposts", microposts_path %></li>
+        <li><%= link_to "home", home_path %></li>
+        <li><%= link_to "help", help_path %></li>
+        <li><%= link_to "about", about_path %></li>
+        <li><%= link_to "contact", contact_path %></li>
         </ul>
       </nav>
     </div>
