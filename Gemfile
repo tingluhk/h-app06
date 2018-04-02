@@ -61,5 +61,7 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'bootstrap', '~> 4.0.0'
 gem 'rails-controller-testing'
+gem 'bcrypt', '3.1.11'
+
 
 ruby "2.4.4"
