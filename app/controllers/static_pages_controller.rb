@@ -10,8 +10,12 @@ class StaticPagesController < ApplicationController
 
   def about
   end
-  
+
   def contact
+  end
+
+  def signup
+    @user = User.new
   end
 
 end

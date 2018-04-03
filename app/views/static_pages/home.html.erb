@@ -1,4 +1,6 @@
 <% #provide(:title, "Home") %>
+<h3><%= yield(:title) %> <%= displayTitle(yield(:title)) %> </h3>
+
 
 <div class="jumbotron">
   <%= link_to image_tag("free_logo_01.png", alt: "rails logo", width:77, height:77),"http://google.com" %>

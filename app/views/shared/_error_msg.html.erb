@@ -1,0 +1,12 @@
+<% if @user.errors.any? %>
+  <div id="error_explanation">
+    <div class="alert alert-danger">
+      the for contains <%= @user.errors.count %> erros.
+    </div>
+    <ul>
+      <% @user.errors.full_messages.each do |msg| %>
+        <%= msg %>
+      <% end %>
+    </ul>
+  </div>
+<% end%>
