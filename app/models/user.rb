@@ -8,7 +8,7 @@ class User < ApplicationRecord
   # i at the end is optional Capitalization
   validates :email, presence:true, length:{ maximum:255 }, format: { with: VALID_EMAIL_REGEX }, uniqueness: { case_sensitive: false }
 
-  has_secure_password
+  # has_secure_password
   # this function give us many benefits, check
   validates :password, length:{ minimum:6 }
 end
