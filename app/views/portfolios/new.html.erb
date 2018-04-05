@@ -1,0 +1,31 @@
+<%= form_for(@portfolio) do |p| %>
+
+  <div class="field">
+    <%= p.label :title %>
+    <%= p.text_field :title, id: :portfolio_title %>
+  </div>
+
+  <div class="field">
+    <%= p.label :subtitle %>
+    <%= p.text_field :subtitle, id: :portfolio_subtitle %>
+  </div>
+
+  <div class="field">
+    <%= p.label :body %>
+    <%= p.text_field :body, id: :portfolio_body %>
+  </div>
+
+  <div class="field">
+    <%= p.label :main_image %>
+    <%= p.text_field :main_image, id: :portfolio_main_image %>
+  </div>
+
+  <div class="field">
+    <%= p.label :thumb_image %>
+    <%= p.text_field :thumb_image, id: :portfolio_thumb_image %>
+  </div>
+
+  <div class="actions">
+    <%= p.submit %>
+  </div>
+<% end %>

@@ -1,16 +1,16 @@
 Rails.application.routes.draw do
 
+  root 'welcome#hello'
+
+  resources :microposts
+  resources :users
   resources :portfolios
+
   get 'pages/home'
-
   get 'pages/about'
-
   get 'pages/contact'
-
   get 'sessions/new'
-
   get 'generate/Users'
-
   get 'generate/new'
 
   get 'home', to: 'static_pages#home'
@@ -22,9 +22,8 @@ Rails.application.routes.draw do
   post 'login', to: 'sessions#create'
   delete 'logout', to: 'sessions#destory'
 
-  resources :microposts
-  resources :users
-  root 'welcome#hello'
+
+
   # yo
   # root 'application#hello'
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
