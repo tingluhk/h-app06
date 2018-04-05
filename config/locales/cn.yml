@@ -1,0 +1,8 @@
+cn:
+  welcome:
+    index:
+      title: "你好欢迎光临"
+      description: "这是我们第一个网站，谢谢！"
+  static_pages:
+    home:
+      singup: "谢谢"

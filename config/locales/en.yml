@@ -29,5 +29,13 @@
 # To learn more, please read the Rails Internationalization guide
 # available at http://guides.rubyonrails.org/i18n.html.
 
+
+
+# these following parameters are based on VIEW directory names!!!!! NOT CONTROLLER NAME or CONTROLLER Methods!!!!
+
+
 en:
-  hello: "Hello world"
+  welcome:
+    index:
+      title: "hi there welcome"
+      description: "this is our first website, thank you for coming!"
