@@ -1,6 +1,7 @@
 
 <%= @portfolios.each do |p| %>
   <div><%= link_to 'update', edit_portfolio_path(p) %></div>
+  <div><%= link_to 'show', portfolio_path(p) %></div>
   <p><%= p.title %></p>
   <p><%= p.subtitle %></p>
   <p><%= p.body %></p>

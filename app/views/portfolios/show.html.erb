@@ -1,0 +1,40 @@
+
+<div class="container">
+  <div class="row">
+        <div class="col-lg-6">
+          <div>
+            <h3><%= @p_item.id %></h3>
+            <p>
+              <strong>title:</strong>
+              link_to <%= @p_item.title %>
+            </p>
+
+            <p>
+              <strong>subtitle:</strong>
+              <%= @p_item.subtitle %>
+            </p>
+
+            <%= image_tag @p_item.thumb_image unless @p_item.thumb_image.nil? %>
+            <hr>
+          </div>
+        </div>
+        <div class="col-lg-6">
+
+
+          <p>
+            <strong>body:</strong>
+            <%= @p_item.body %>
+          </p>
+
+          <p>
+            <strong>body:</strong>
+            <%= @p_item.body %>
+          </p>
+
+          <%= link_to 'Edit', edit_portfolio_path(@p_item) %> |
+          <%= link_to 'Back', portfolios_path %>
+        </div>
+
+
+  </div>
+</div>

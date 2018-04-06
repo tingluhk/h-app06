@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
 
+  resources :blogs
   root 'welcome#hello'
 
   resources :microposts
